@@ -1,0 +1,101 @@
+.appContainer {
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.pokemons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homepageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.battleground {
+    margin: auto;
+}
+
+.randomPokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.randomPokemonButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.afterFightBtns {
+  display: flex;
+  gap: 1em;
+}
+
+.poke-type {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+.poke-type-grass {
+  background-color: rgb(83, 210, 83);
+}
+.poke-type-normal {
+  background-color: rgb(187, 187, 247);
+}
+.poke-type-flying {
+  background-color: rgb(176, 173, 173);
+}
+.poke-type-water {
+  background-color: rgb(105, 150, 248);
+}
+.poke-type-fire {
+  background-color: rgb(244, 187, 81);
+}
+.poke-type-poison {
+  background-color: rgba(75, 83, 244, 0.841);
+}
+.poke-type-bug {
+  background-color: rgba(101, 155, 101, 0.964);
+}
+.poke-type-electric {
+  background-color: rgba(223, 223, 103, 0.964);
+}
+.poke-type-ground {
+  background-color: rgba(173, 184, 105, 0.964);
+}
+.poke-type-fairy {
+  background-color: rgb(253, 200, 209);
+}
+.poke-type-fighting {
+  background-color: rgb(105, 40, 40);
+}
+.poke-type-psychic {
+  background-color: rgb(50, 50, 125);
+}
+.poke-type-rock {
+  background-color: darkslategrey;
+}
+.poke-type-ice {
+  background-color: rgb(81, 184, 232);
+}
+.poke-type-ghost {
+  background-color: rgb(129, 35, 134);
+}
+.poke-type-dragon {
+  background-color: rgb(177, 70, 34);
+}
+.poke-type-dark {
+  background-color: rgba(0, 0, 0, 0.731);
+}
+.poke-type-steel {
+  background-color: rgb(125, 120, 120);
+}
+
